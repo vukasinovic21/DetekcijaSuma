@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Detekcija suma" company="Pmf" webLink="http://" view-date="2024-08-19" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Detekcija suma" company="Pmf" webLink="http://" view-date="2024-08-16" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:1" id="gantt-chart">
         <field id="tpd3" name="Name" width="200" order="0"/>
         <field id="tpd4" name="Begin date" width="75" order="1"/>
         <field id="tpd5" name="End date" width="75" order="2"/>
         <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[5]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ccffcc #cc6600 #ff0033]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -34,15 +40,15 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Definisanje projekta" color="#000000" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
-            <task id="1" name="Upoznavanje sa zahtevima" color="#8cb6ce" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="2" name="Upoznavanje sa tehnologijama" color="#8cb6ce" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="3" name="Uspostavljanje projekta" color="#8cb6ce" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Definisanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Upoznavanje sa zahtevima" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="Upoznavanje sa tehnologijama" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Uspostavljanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-22" duration="7" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
-            <task id="5" name="Ucitavanje satelitskih snimaka" color="#8cb6ce" meeting="false" start="2024-08-22" duration="7" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="6" name="Pravljenje modela" color="#8cb6ce" meeting="false" start="2024-08-26" duration="5" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-08-29" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="4" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Ucitavanje satelitskih snimaka" color="#ff0033" meeting="false" start="2024-08-23" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="6" name="Pravljenje modela" color="#cc6600" meeting="false" start="2024-08-23" duration="3" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-08-27" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
