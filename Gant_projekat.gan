@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Detekcija suma" company="Pmf" webLink="http://" view-date="2024-08-16" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Detekcija suma" company="Pmf" webLink="http://" view-date="2024-08-16" view-index="0" gantt-divider-location="284" resource-divider-location="300" version="3.2.3247" locale="en_US">
     <description/>
     <view zooming-state="default:1" id="gantt-chart">
-        <field id="tpd3" name="Name" width="200" order="0"/>
-        <field id="tpd4" name="Begin date" width="75" order="1"/>
-        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd3" name="Name" width="161" order="0"/>
+        <field id="tpd4" name="Begin date" width="61" order="1"/>
+        <field id="tpd5" name="End date" width="61" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <timeline>
             <![CDATA[5]]>
         </timeline>
         <option id="color.recent">
-            <![CDATA[#ccffcc #cc6600 #ff0033]]>
+            <![CDATA[#33ffff #ccffcc #cc6600 #ff0033]]>
         </option>
     </view>
     <view id="resource-table">
@@ -45,10 +45,15 @@
             <task id="2" name="Upoznavanje sa tehnologijama" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
             <task id="3" name="Uspostavljanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="4" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
-            <task id="5" name="Ucitavanje satelitskih snimaka" color="#ff0033" meeting="false" start="2024-08-23" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="6" name="Pravljenje modela" color="#cc6600" meeting="false" start="2024-08-23" duration="3" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-08-27" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="12" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Ucitavanje satelitskih snimaka" color="#ff0033" meeting="false" start="2024-08-23" duration="4" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="6" name="Pravljenje modela" color="#cc6600" meeting="false" start="2024-08-23" duration="12" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="Pisanje dokumentacije" color="#33ffff" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-09-06" thirdDate-constraint="1" expand="true">
+            <task id="9" name="Skrinsotovanje koda" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Pisanje objasnjenja" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Zavrsna provera" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
