@@ -40,20 +40,20 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Definisanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
-            <task id="1" name="Upoznavanje sa zahtevima" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="2" name="Upoznavanje sa tehnologijama" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
-            <task id="3" name="Uspostavljanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Definisanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Upoznavanje sa zahtevima" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="Upoznavanje sa tehnologijama" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Uspostavljanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="12" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
-            <task id="5" name="Ucitavanje satelitskih snimaka" color="#ff0033" meeting="false" start="2024-08-23" duration="4" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="6" name="Pravljenje modela" color="#cc6600" meeting="false" start="2024-08-23" duration="12" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="12" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Ucitavanje satelitskih snimaka" color="#ff0033" meeting="false" start="2024-08-23" duration="4" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="6" name="Pravljenje modela" color="#cc6600" meeting="false" start="2024-08-28" duration="9" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="8" name="Pisanje dokumentacije" color="#33ffff" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-09-06" thirdDate-constraint="1" expand="true">
-            <task id="9" name="Skrinsotovanje koda" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
-            <task id="10" name="Pisanje objasnjenja" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
-            <task id="11" name="Zavrsna provera" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Pisanje dokumentacije" color="#33ffff" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-09-06" thirdDate-constraint="1" expand="true">
+            <task id="9" name="Skrinsotovanje koda" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Pisanje objasnjenja" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Zavrsna provera" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
