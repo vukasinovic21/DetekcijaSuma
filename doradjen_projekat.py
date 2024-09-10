@@ -265,7 +265,7 @@ y_pred = rf_classifier.predict(X_test)
 
 
 # Vise se ne salje mejl 
-# Sada se salje poruka na mikrokontroler preko uart.com koriscenjem pyserial biblioteke
+# Sada se salje poruka na mikrokontroler preko serijskog porta koriscenjem pyserial biblioteke
 # Posto nemam uredjaj testiracu kao simulaciju 
 def send_email(message):
     try:
