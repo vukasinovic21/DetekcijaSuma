@@ -266,12 +266,18 @@ y_pred = rf_classifier.predict(X_test)
 
 # Vise se ne salje mejl 
 # Sada se salje poruka na mikrokontroler preko uart.com koriscenjem pyserial biblioteke
+# Posto nemam uredjaj testiracu kao simulaciju 
 def send_email(message):
     try:
         ser = serial.Serial('COM3', 9600, timeout=1)
         ser.write(message.encode())
         ser.close()
         print(f"Alarm: '{message}' poslat na mikrokontroler.")
+
+    except serial.SerialException as e:
+        print("Serijski port nije dostupan. Simuliracu slanje alarma na mikrokontroler.")
+        print(f"Simulirani alarm: '{message}' poslat na mikrokontroler.")
+
     except Exception as e:
         print(f"Greška pri slanju alarma: {e}")
 
