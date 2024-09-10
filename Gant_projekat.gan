@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Detekcija suma" company="Pmf" webLink="https://github.com/vukasinovic21/DetekcijaSuma" view-date="2024-08-21" view-index="0" gantt-divider-location="284" resource-divider-location="300" version="3.2.3247" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Detekcija suma" company="Pmf" webLink="https://github.com/vukasinovic21/DetekcijaSuma" view-date="2024-08-13" view-index="0" gantt-divider-location="284" resource-divider-location="300" version="3.2.3247" locale="en_US">
     <description/>
     <view zooming-state="default:1" id="gantt-chart">
         <field id="tpd3" name="Name" width="161" order="0"/>
@@ -9,7 +9,7 @@
             <![CDATA[5]]>
         </timeline>
         <option id="color.recent">
-            <![CDATA[#33ffff #ccffcc #cc6600 #ff0033]]>
+            <![CDATA[#ffff66 #33ffff #ccffcc #cc6600 #ff0033]]>
         </option>
     </view>
     <view id="resource-table">
@@ -45,15 +45,16 @@
             <task id="2" name="Upoznavanje sa tehnologijama" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
             <task id="3" name="Uspostavljanje projekta" color="#ccffcc" meeting="false" start="2024-08-22" duration="1" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="12" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+        <task id="4" name="Kodiranje" color="#8cb6ce" meeting="false" start="2024-08-23" duration="14" complete="88" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
             <task id="5" name="Ucitavanje satelitskih snimaka" color="#ff0033" meeting="false" start="2024-08-23" duration="4" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="6" name="Pravljenje modela" color="#cc6600" meeting="false" start="2024-08-28" duration="9" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="7" name="Slanje alarma" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Implementacija mikrokontrolera" color="#ffff66" meeting="false" start="2024-09-10" duration="2" complete="0" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="8" name="Pisanje dokumentacije" color="#33ffff" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-09-06" thirdDate-constraint="1" expand="true">
+        <task id="8" name="Pisanje dokumentacije" color="#33ffff" meeting="false" start="2024-09-06" duration="4" complete="100" thirdDate="2024-09-06" thirdDate-constraint="1" expand="true">
             <task id="9" name="Skrinsotovanje koda" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
             <task id="10" name="Pisanje objasnjenja" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
-            <task id="11" name="Zavrsna provera" color="#8cb6ce" meeting="false" start="2024-09-06" duration="2" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Zavrsna provera" color="#8cb6ce" meeting="false" start="2024-09-06" duration="4" complete="100" thirdDate="2024-08-16" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -63,6 +64,7 @@
         <allocation task-id="8" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="4" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
