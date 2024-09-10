@@ -138,7 +138,8 @@ second_map = 'second_map.html'
 Map.save(second_map)
 
 
-images_folder = os.path.join(os.getcwd(), 'images')
+#images_folder = os.path.join(os.getcwd(), 'images')
+images_folder = "K:\\DetekcijaSuma\\images"
 export_path = os.path.join(images_folder, 'median_ndvi_test.tif')
 export_path1 = os.path.join(images_folder, 'median_evi_test.tif')
 export_path2 = os.path.join(images_folder, 'median_ndvi_train1.tif')
@@ -147,48 +148,54 @@ export_path4 = os.path.join(images_folder, 'median_ndvi_train2.tif')
 export_path5 = os.path.join(images_folder, 'median_evi_train2.tif')
 
 # Exportujemo test slike na lokal
-geemap.ee_export_image(
-    median_ndvi_test,
-    filename=export_path,
-    scale=5,
-    region=aoi.getInfo()['coordinates']
-)
+if not os.path.exists(export_path):
+    geemap.ee_export_image(
+        median_ndvi_test,
+        filename=export_path,
+        scale=5,
+        region=aoi.getInfo()['coordinates']
+    )
 
-geemap.ee_export_image(
-    median_evi_test,
-    filename=export_path1,
-    scale=5,
-    region=aoi.getInfo()['coordinates']
-)
+if not os.path.exists(export_path1):
+    geemap.ee_export_image(
+        median_evi_test,
+        filename=export_path1,
+        scale=5,
+        region=aoi.getInfo()['coordinates']
+    )
 
 # Exportujemo train slike na lokal
-geemap.ee_export_image(
-    median_ndvi2,
-    filename=export_path2,
-    scale=10,
-    region=aoi2.getInfo()['coordinates']
-)
+if not os.path.exists(export_path2):
+    geemap.ee_export_image(
+        median_ndvi2,
+        filename=export_path2,
+        scale=10,
+        region=aoi2.getInfo()['coordinates']
+    )
 
-geemap.ee_export_image(
-    median_evi2,
-    filename=export_path3,
-    scale=10,
-    region=aoi2.getInfo()['coordinates']
-)
+if not os.path.exists(export_path3):
+    geemap.ee_export_image(
+        median_evi2,
+        filename=export_path3,
+        scale=10,
+        region=aoi2.getInfo()['coordinates']
+    )
 
-geemap.ee_export_image(
-    median_ndvi3,
-    filename=export_path4,
-    scale=10,
-    region=aoi3.getInfo()['coordinates']
-)
+if not os.path.exists(export_path4):
+    geemap.ee_export_image(
+        median_ndvi3,
+        filename=export_path4,
+        scale=10,
+        region=aoi3.getInfo()['coordinates']
+    )
 
-geemap.ee_export_image(
-    median_evi3,
-    filename=export_path5,
-    scale=10,
-    region=aoi3.getInfo()['coordinates']
-)
+if not os.path.exists(export_path5):
+    geemap.ee_export_image(
+        median_evi3,
+        filename=export_path5,
+        scale=10,
+        region=aoi3.getInfo()['coordinates']
+    )
 
 
 # Ucitavamo exportovanu NDVI test sliku
@@ -255,13 +262,6 @@ rf_classifier.fit(X_train, y_train)
 
 # Prediktovanje
 y_pred = rf_classifier.predict(X_test)
-
-# Evaluacija modela
-print("Confusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
-
-print("\nClassification Report:")
-print(classification_report(y_test, y_pred))
 
 
 # Vise se ne salje mejl 
