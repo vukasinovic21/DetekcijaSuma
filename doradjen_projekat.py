@@ -95,7 +95,7 @@ Map.addLayer(image, vis_params, 'RGB Image')
 Map.addLayer(aoi, {}, 'AOI')
 Map.addLayerControl()
 
-first_map = 'first_map.html'
+first_map = 'K:\\DetekcijaSuma\\images\\first_map.html'
 Map.save(first_map)
 
 
@@ -134,7 +134,7 @@ Map.addLayer(median_ndvi_test, ndvi_params, 'Median NDVI')
 Map.addLayer(aoi, {}, 'AOI')
 Map.addLayerControl()
 
-second_map = 'second_map.html'
+second_map = 'K:\\DetekcijaSuma\\images\\second_map.html'
 Map.save(second_map)
 
 
